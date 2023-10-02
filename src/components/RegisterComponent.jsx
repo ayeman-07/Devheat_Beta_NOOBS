@@ -113,7 +113,7 @@ export default function RegisterComponent() {
 
       <div className="google-btn-container">
         <p className="go-to-signup">
-          Already on LinkedIn?{" "}
+          Already on HackBuddy?{" "}
           <span className="join-now" onClick={() => navigate("/")}>
             Sign in
           </span>
