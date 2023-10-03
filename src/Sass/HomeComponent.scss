@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .home-component {
+    background-image: url('../assets/bg3.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to the full viewport height */
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
