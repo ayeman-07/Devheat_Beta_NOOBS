@@ -45,7 +45,7 @@ export default function RegisterComponent() {
     "HTML",
     "CSS",
     "Python",
-    // Add more skills as needed
+    
   ];
 
   return (
@@ -53,7 +53,7 @@ export default function RegisterComponent() {
       <img src={Logo} className="logo" />
 
       <div className="login-wrapper-inner">
-        <h1 className="heading">Make the most of your professional life</h1>
+        <h1 className="heading">Join us to meet tech wizards just like you</h1>
 
         <div className="auth-inputs">
           <input
@@ -89,6 +89,8 @@ export default function RegisterComponent() {
           {/* Input for selecting skills */}
           <label htmlFor="skills" className="skill-label">
             Select Skills:
+          <span>(Press ctrl to choose multiple options)</span>
+
           </label>
           <select
             id="skills"
@@ -97,11 +99,14 @@ export default function RegisterComponent() {
             onChange={handleSkillChange}
             className="skill-select"
           >
+
             {skillsList.map((skill, index) => (
               <option key={index} value={skill}>
                 {skill}
               </option>
+              
             ))}
+
           </select>
         </div>
         <button onClick={register} className="login-btn">

@@ -7,6 +7,7 @@ import {
   import HomeLayout from "../Layouts/HomeLayout";
   import HackathonLayout from "../Layouts/HackathonLayout";
   import MessageLayout from "../Layouts/MessageLayout";
+  import NotificationsLayout from "../Layouts/NotificationsLayout";
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -30,5 +31,9 @@ export const router = createBrowserRouter([
     {
       path: "/message",
       element: <MessageLayout/>,
+    },
+    {
+      path: "/notifications",
+      element: <NotificationsLayout/>,
     },
   ]);

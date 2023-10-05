@@ -1,0 +1,32 @@
+// NotificationsPage.scss
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .notifications-container {
+    background-image: url('../assets/bg3.avif'); /* Set the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notification-content {
+    text-align: center;
+    color: #fff;
+  
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  
